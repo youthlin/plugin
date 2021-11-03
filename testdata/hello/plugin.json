@@ -1,0 +1,8 @@
+{
+    "Name": "com.example.hello",
+    "Cmd": [
+        "sh",
+        "-c",
+        "${dir}/plugin"
+    ]
+}

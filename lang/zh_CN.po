@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-10-14 20:28+0800\n"
+"PO-Revision-Date: 2021-10-14 20:28+0800\n"
+"Last-Translator: Lin <youthlinchen@outlook.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: T;X:1c,2;N:1,2;N64:1,2;XN:1c,2,3;XN64:1c,2,3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. TRANSLATORS: %s is the plugins root dir
+#: host.go:27
+#, c-format
+msgid "failed to open plugins dir: %s"
+msgstr "打开插件文件夹失败：%s"
+
+#. TRANSLATORS: %s is the plugins root dir
+#: host.go:33
+#, c-format
+msgid "failed to read plugins dir: %s"
+msgstr "读取插件文件夹失败：%s"
+
+#: host.go:55
+msgid "failed to open plugin meta file"
+msgstr "打开插件描述文件失败"
+
+#. TRANSLATORS: %s is the plugin's meta file: "plugin.json"
+#: host.go:61
+#, c-format
+msgid "failed to read plugin meta file: %s"
+msgstr "读取插件描述文件失败：%s"
+
+#. TRANSLATORS: %s is plugin meta file
+#: host.go:72
+#, c-format
+msgid "plugin is not valid: %s"
+msgstr "插件元数据非法：%s"
+
+#: plugin.go:26
+msgid "plugin name must not be empty"
+msgstr "插件名称不能为空"
+
+#: plugin.go:29
+msgid "start command must not be empty"
+msgstr "启动命令不能为空"
+
+#, fuzzy
+#~| msgid "failed to open plugin dir: %s"
+#~ msgid "failed to open plugin dir"
+#~ msgstr "打开插件文件夹失败：%s"
